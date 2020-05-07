@@ -64,8 +64,8 @@
     <Compile Remove="Tools\Helper\CommonHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\HC\HC.csproj" />
     <ProjectReference Include="..\..\Shared\HandyControlDemo_Code\HandyControlDemo_Code.csproj" />
-    <ProjectReference Include="..\HandyControl_Core_GE30\HandyControl_Core_GE30.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\Data\DemoInfo.json">

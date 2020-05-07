@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:HandyControl.Controls">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Base/ButtonGroupBaseStyle.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style BasedOn="{StaticResource ButtonGroupBaseStyle}" TargetType="controls:ButtonGroup"/>
+
+    <Style x:Key="ButtonGroupSolid" BasedOn="{StaticResource ButtonGroupBaseStyle}" TargetType="controls:ButtonGroup">
+        <Setter Property="controls:VisualElement.HighlightBorderBrush" Value="{DynamicResource TitleBrush}"/>
+        <Setter Property="controls:VisualElement.HighlightBackground" Value="{DynamicResource TitleBrush}"/>
+        <Setter Property="controls:VisualElement.HighlightForeground" Value="{DynamicResource TextIconBrush}"/>
+    </Style>
+
+</ResourceDictionary>

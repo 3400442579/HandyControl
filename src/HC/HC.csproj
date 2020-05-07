@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>net46;net47;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <UseWPF>true</UseWPF>
+    <Authors>HandyOrg</Authors>
+    <PackageId>HandyControl</PackageId>
+    <Product>HandyControl</Product>
+    <Description>Contains some commonly used simple WPF controls</Description>
+    <Version>2.5.0</Version>
+    <Copyright>Copyright © HandyOrg 2018-2020</Copyright>
+
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Loc\Langs\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  
+  <!--<PropertyGroup Condition=" '$(TargetFramework)' == 'net46' ">
+    <DefineConstants>net46</DefineConstants>
+  </PropertyGroup>-->
+
+ 
+
+</Project>
